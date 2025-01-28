@@ -1,0 +1,1 @@
+print("Vaishnav","Yash","Prajwal",95,96,66)

@@ -1,0 +1,10 @@
+a = 6
+b = 4
+print(a == b)
+print(3 == 3)
+print(a != b)
+print(3 != 3)
+print(a > b)
+print(a <= b)
+print(6 <= 6)
+print(7 >= 9)

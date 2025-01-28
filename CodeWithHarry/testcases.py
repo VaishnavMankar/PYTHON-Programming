@@ -1,0 +1,1 @@
+print("Hello world\nmy name is Vaishnav")

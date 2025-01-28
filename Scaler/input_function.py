@@ -1,0 +1,8 @@
+# name = input()
+# print(name)
+# print(type(name))
+x = input()
+print(type(x))
+print(x)
+y = float(x)
+print(type(y))
