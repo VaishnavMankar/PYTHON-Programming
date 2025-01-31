@@ -19,3 +19,4 @@ print(fruits2)
 fruits1.append(fruits2)
 print(fruits1)
 print(fruits2)
+

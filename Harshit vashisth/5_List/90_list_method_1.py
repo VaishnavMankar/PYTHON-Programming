@@ -14,6 +14,7 @@ print(numbers)
 #sorted function
 print(sorted(numbers))
 print(numbers)
+print(sorted(fruits))
 
 #reverse
 

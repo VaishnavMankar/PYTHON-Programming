@@ -10,3 +10,6 @@ def fun():
 print(x)
 print(fun())
 print(x)
+
+
+print(x)

@@ -1,7 +1,7 @@
 #common method to delete data from list
 
 fruits = ['orange','apple','peach','banana','kiwi']
-#pop methid
+#pop method
 print(fruits)
 fruits.pop(1) #it will delete the element at position at index 1     
 print(fruits)
