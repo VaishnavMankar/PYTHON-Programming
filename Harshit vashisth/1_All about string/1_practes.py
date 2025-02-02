@@ -5,3 +5,4 @@ while i < len(num):
     total += int(num[i])
     i+= 1
 print(total)
+# jfdghjfdjnfg
