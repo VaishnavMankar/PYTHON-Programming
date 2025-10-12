@@ -17,4 +17,4 @@ for num in even_nums:
     print(num)
 
 # for num in even_nums:      #as soon as you assign a generator to a variable   
-#     print(num)             #you cannot run it multiple times
+#     print(num)             #you cannot run it multiple timesk
