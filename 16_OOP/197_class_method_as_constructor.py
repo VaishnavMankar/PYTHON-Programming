@@ -11,7 +11,9 @@ class Person:
     @classmethod               
     def from_string(cls,string):  #This function is our alternative constructor
         first,last,age = string.split(',')
-        return cls(first,last,age)
+        #return cls(first,last,age)
+        return cls(first,last,int(age)) # Convert age to an integer
+    
 
     
     @classmethod
