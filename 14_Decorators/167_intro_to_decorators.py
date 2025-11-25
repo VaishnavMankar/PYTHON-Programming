@@ -12,6 +12,6 @@ f = square
 print(f(6))
 print(f(8))
 print(f.__name__)
-print(square.__name__)
+print(square.__name__)  
 print(f)
 print(square)

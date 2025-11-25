@@ -13,12 +13,12 @@ class Person:
     def count_instances(cls):
         # return f"You have created {cls.count_instance} instances of person class"
         return f"You have created {cls.count_instance} instances of {cls.__name__} class"
+ 
 
-
-    def full_name(self):
+    def full_name(self): #This are our instance method ans self represent the object
         return f"{self.first_name} {self.last_name}"
     
-    def above_18(self):
+    def above_18(self): #This are our instance method
         return self.age > 18
         
 p1 = Person("Varun", "Sharma", 89) # instances 1

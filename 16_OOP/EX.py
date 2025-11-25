@@ -1,45 +1,25 @@
-# 1. Define the class (the blueprint)
-class Dog:
-    # The __init__ method is the constructor. It runs when a new object is created.
-    # 'self' refers to the specific instance of the class (the dog being created).
-    def __init__(self, name, breed, age):
-        # Attributes: data associated with each dog object
-        self.name = name
-        self.breed = breed
-        self.age = age
-        print(f"{self.name} the {self.breed} has been created!")
+class Laptop:
+    discount_percent = 10  # class variable
+    def __init__(self, brand, model_name, price):
+        self.brand = brand
+        self.name = model_name
+        self.price = price
+        
+    def apply_discount(self):
+        off_price = (self.discount_percent/100) * self.price
+        #we use self so that we can change the value of class variable for specific object
+        #otherwise if we want the class variable value to be same we use class name like Laptop.discount_percent
+        return self.price - off_price
+     
+#You can change the class variable value like this 
+#Laptop.discount_percent = 0
 
-    # A method: a function that belongs to the class
-    def bark(self):
-        print(f"{self.name} says: Woof!  Woof!")
-
-    # Another method that uses the object's attributes
-    def display_info(self):
-        print(f"Name: {self.name}, Breed: {self.breed}, Age: {self.age}")
-    
-    # A method that modifies an attribute
-    def celebrate_birthday(self):
-        self.age += 1
-        print(f"Happy Birthday, {self.name}! You are now {self.age} years old. 🎂")
+laptop1 = Laptop('HP','au114tx', 63000)
+print(laptop1.apply_discount())
 
 
-# 2. Create objects (instances) of the Dog class
-print("--- Creating our dogs ---")
-dog1 = Dog("Buddy", "Golden Retriever", 3)
-dog2 = Dog("Lucy", "Poodle", 5)
+#This will help you to see all the instance variables of an object
+print(laptop1.__dict__)
 
-print("\n--- Let's see what our dogs can do ---")
-
-# 3. Use the objects' attributes and methods
-dog1.display_info()
-dog2.display_info()
-
-print("\n--- Calling the bark method ---")
-dog1.bark()
-dog2.bark()
-
-print("\n--- It's Buddy's birthday! ---")
-dog1.celebrate_birthday()
-
-print("\n--- Final check on Buddy's age ---")
-dog1.display_info()
+laptop2 = Laptop('Dell','inspiron', 75000)
+print(laptop2.apply_discount())   

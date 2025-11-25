@@ -12,4 +12,4 @@ laptop1 = Laptop('HP','au114tx', 63000)
 print(laptop1.apply_discount(10))
 
 laptop2 = Laptop('Dell','inspiron', 75000)
-print(laptop2.apply_discount(15))
+print(laptop2.apply_discount(15)) 

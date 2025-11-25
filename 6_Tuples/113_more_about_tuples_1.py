@@ -24,7 +24,7 @@ print(type(mixed))
 #Tuple without parenthesis
 guitars = 'yello', 'baton rouge', 'taylor'
 print(type(guitars))
-#you can create tuple without without using round bracket
+#you can create tuple without using round bracket
 
 #Tuple unpacking
 guitarist = ('Maneli Jamal','Eddie van Der Meer','Andrew Foy')

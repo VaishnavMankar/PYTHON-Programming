@@ -3,7 +3,7 @@
 
 #example
 #input --------> [True,False,[1,2,3],1,1.0,3]
-#output -------->['1','1.0'.'2']
+#output -------->['1','1.0','2']
 #the function should take input as list and output should be in string of int and float
 
 def num_to_string(l):

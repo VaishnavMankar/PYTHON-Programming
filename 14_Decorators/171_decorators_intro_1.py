@@ -19,7 +19,7 @@ def func2():
     print('This is function 2')
 
 # func1()
-# func2()
+# func2()   
 
 # var = decorator_function(func1)
 # var()

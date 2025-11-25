@@ -9,6 +9,10 @@ def even_generator(n):
         if num % 2 == 0:
             yield(num)
 
+# def even_generator(n):
+#     for num in range(2,n+1,2):
+#         yield(num)
+
 # for num in even_generator(20):
 #     print(num)                  # you can run this multiple times
 
