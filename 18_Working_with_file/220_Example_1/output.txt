@@ -1,0 +1,5 @@
+
+Harshit's salary is 100
+Mohit's salary is 50
+Aadita's salary is 200
+Nitish's salary is 500
